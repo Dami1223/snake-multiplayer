@@ -4,7 +4,7 @@ import { Send } from "react-bootstrap-icons";
 import { ChatProps, SocketMensaje } from "../types/types";
 import socket from "./Socket";
 
-const OtroChat = ({ jugador }: ChatProps) => {
+const Chat = ({ jugador }: ChatProps) => {
   const [mensajes, setMensajes] = useState<SocketMensaje[]>([]);
   const [mensaje, setMensaje] = useState<string>("");
   const messagesContainerRef = useRef<HTMLDivElement>(null);
@@ -76,4 +76,4 @@ const OtroChat = ({ jugador }: ChatProps) => {
   );
 };
 
-export default OtroChat;
+export default Chat;
