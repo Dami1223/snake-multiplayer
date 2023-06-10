@@ -1,0 +1,248 @@
+.game-area{
+  position: relative;
+  margin: 50px auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid #000;
+}
+
+.snake-dot-red{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: red;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-green{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: green;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-blue{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: blue;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-aqua{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: aqua;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-black{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: black;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-pink{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: pink;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-orange{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: orange;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-yellow{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: yellow;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-brown{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: brown;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-blueviolet{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: blueviolet;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-turquoise{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: turquoise;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-skyblue{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: skyblue;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot-gray{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background-color: gray;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.tr-red{
+  color: red;
+}
+
+.tr-green{
+  color: green;
+}
+
+.tr-blue{
+  color: blue;
+}
+
+.tr-aqua{
+  color: aqua;
+}
+
+.tr-black{
+  color: black;
+}
+
+.tr-pink{
+  color: pink;
+}
+
+.tr-orange{
+  color: orange;
+}
+
+.tr-yellow{
+  color: yellow;
+}
+
+.tr-brown{
+  color: brown;
+}
+
+.tr-blueviolet{
+  color: blueviolet;
+}
+
+.tr-turquoise{
+  color: turquoise;
+}
+
+.tr-skyblue{
+  color: skyblue;
+}
+
+.tr-gray{
+  color: gray;
+}
+
+.snake-food{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  background: violet;
+  border: 1px solid #fff;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.formChat {
+  background: rgba(0, 0, 0, 0.15);
+  /* padding: 0.25rem; */
+  position: absolute;
+  bottom: 0;
+  /* left: 0; */
+  /* right: 0; */
+  /* display: flex; */
+  /* height: 3rem;   */
+  /* box-sizing: border-box; */
+  /* backdrop-filter: blur(10px); */
+}
+
+#input {
+  border: none;
+  padding: 0 1rem;
+  flex-grow: 1;
+  border-radius: 2rem;
+  margin: 0.25rem;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#form>button {
+  background: #333;
+  border: none;
+  padding: 0 1rem;
+  margin: 0.25rem;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages>li {
+  padding: 0.5rem 1rem;
+}
+
+#messages>li:nth-child(odd) {
+  background: #efefef;
+}
+
+.containerForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  max-width: 200px;
+}
